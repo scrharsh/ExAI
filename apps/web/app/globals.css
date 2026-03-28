@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #f6f4ef;
+  --ink: #14212b;
+  --accent: #1f9a8a;
+  --ember: #ee6c4d;
+  --mint: #8bd3c7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-space-grotesk), sans-serif;
+  background: radial-gradient(circle at 20% 10%, #fdfbf7, transparent 45%),
+    linear-gradient(135deg, #f6f4ef 0%, #edf1f2 70%, #fef3e8 100%);
+  color: var(--ink);
+}
+
+code,
+pre {
+  font-family: var(--font-plex-mono), monospace;
+}
